@@ -16,7 +16,7 @@ export default class Header extends Component {
     const { openMenu } = this.state;
     const { activeLink } = this.props;
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+      <nav className="navbar navbar-expand-lg navbar-dark py-lg-1" id="mainNav">
         <div className="container">
           <a
             className="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none"
@@ -39,7 +39,7 @@ export default class Header extends Component {
             className={`collapse navbar-collapse ${openMenu ? 'show' : ''}`}
             id="navbarResponsive"
           >
-            <ul className="navbar-nav text-center mx-auto">
+            <ul className="navbar-nav text-center ml-auto">
               <li
                 className={`nav-item px-lg-4 ${
                   activeLink === 'home' ? 'active' : ''
@@ -51,38 +51,38 @@ export default class Header extends Component {
               </li>
               <li
                 className={`nav-item px-lg-4 ${
-                  activeLink === 'about' ? 'active' : ''
+                  activeLink === 'resume' ? 'active' : ''
                 }`}
               >
                 <Link
                   className="nav-link text-uppercase text-expanded"
-                  to="/about"
+                  to="/resume"
                 >
-                  About
+                  Resume
                 </Link>
               </li>
               <li
                 className={`nav-item px-lg-4 ${
-                  activeLink === 'products' ? 'active' : ''
+                  activeLink === 'portfolio' ? 'active' : ''
                 }`}
               >
                 <Link
                   className="nav-link text-uppercase text-expanded"
-                  to="/products"
+                  to="/portfolio"
                 >
-                  Products
+                  Portfolio
                 </Link>
               </li>
               <li
                 className={`nav-item px-lg-4 ${
-                  activeLink === 'store' ? 'active' : ''
+                  activeLink === 'contact' ? 'active' : ''
                 }`}
               >
                 <Link
                   className="nav-link text-uppercase text-expanded"
-                  to="/store"
+                  to="/contact"
                 >
-                  Store
+                  Contact
                 </Link>
               </li>
             </ul>

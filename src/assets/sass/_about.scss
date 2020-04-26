@@ -1,4 +1,10 @@
 .about-heading {
+  .about-heading-content {
+    font-size: 0.7rem;
+    position: relative;
+    z-index: 1;
+  }
+
   @media (min-width: 992px) {
     .about-heading-img {
       position: relative;
@@ -8,6 +14,7 @@
       margin-top: -5rem;
       position: relative;
       z-index: 1;
+      font-size: 1rem;
     }
   }
 }

@@ -40,8 +40,8 @@ class Layout extends Component {
               <html lang="en" />
             </Helmet>
             <div className={'page-top'}>
-              {!noSiteHeader ? <SiteHeader /> : null}
               {!noHeader ? <Header activeLink={activeLink} /> : null}
+              {!noSiteHeader ? <SiteHeader /> : null}
               {children}
               {!noFooter ? <Footer /> : null}
             </div>

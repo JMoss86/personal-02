@@ -4,7 +4,7 @@ body {
       rgba(47, 23, 15, 0.65),
       rgba(47, 23, 15, 0.65)
     ),
-    url('../images/bg.jpg');
+    url('../images/bg-masthead.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -23,6 +23,13 @@ p {
   line-height: 1.75;
 }
 
+a {
+  color: fade-out($white, 0.5);
+}
+a:hover {
+  color: fade-out($primary, 0.5);
+}
+
 .text-faded {
   color: fade-out($white, 0.7);
 }
@@ -38,21 +45,25 @@ p {
     display: block;
     font-size: 2rem;
     font-weight: 800;
+    color: #af02a7 !important;
+    @include stroke(1, $black);
   }
   .site-heading-lower {
     font-size: 5rem;
     font-weight: 100;
     line-height: 4rem;
+    color: #00a50e;
+    @include stroke(1, $black);
   }
 }
 
 .page-section {
   margin-top: 5rem;
   margin-bottom: 5rem;
+  color: fade-out($white, 0.4);
 }
 
 .section-heading {
-  text-transform: uppercase;
   .section-heading-upper {
     display: block;
     font-size: 1rem;
@@ -60,11 +71,49 @@ p {
   }
   .section-heading-lower {
     display: block;
-    font-size: 3rem;
+    font-size: 1.3819999rem;
     font-weight: 100;
+  }
+}
+.section-poop {
+  display: block;
+  font-size: 0.9486363rem !important;
+  text-align: justify !important;
+  @include body-font;
+}
+
+@media (min-width: 752px) {
+  .section-heading {
+    .section-heading-lower {
+      display: block;
+      font-size: 2.1959997rem;
+      font-weight: 100;
+    }
+  }
+  .section-poop {
+    display: block;
+    font-size: 1rem !important;
+    text-align: justify !important;
+    @include body-font;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-heading {
+    .section-heading-lower {
+      display: block;
+      font-size: 2.5rem;
+      font-weight: 100;
+    }
+  }
+  .section-poop {
+    display: block;
+    font-size: 1.5rem !important;
+    text-align: justify !important;
+    @include body-font;
   }
 }
 
 .bg-faded {
-  background-color: fade-out($white, 0.15);
+  background-color: fade-out(#001a02, 0.15);
 }

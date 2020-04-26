@@ -2,8 +2,6 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import about from '../assets/images/about.jpg';
-
 const IndexPage = () => (
   <Layout activeLink="contact">
     <section className="page-section cta">

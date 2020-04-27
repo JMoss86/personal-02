@@ -22,10 +22,12 @@
   font-size: 0.45rem !important;
 }
 
-.topLink {
-  text-align: left;
-}
+@media (min-width: 992px) {
+  .topLink {
+    text-align: left;
+  }
 
-.notTopLink {
-  text-align: right;
+  .notTopLink {
+    text-align: right;
+  }
 }

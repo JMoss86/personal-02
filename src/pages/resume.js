@@ -67,7 +67,7 @@ const IndexPage = () => (
                     <a href="https://www.gccaz.edu/" target="_blank">
                       Glendale Community College,
                     </a>{' '}
-                    Glendale, AZ &ndash; December 2019
+                    Glendale, AZ &ndash; graduated December 2019
                   </li>
                   <ul>
                     <li>

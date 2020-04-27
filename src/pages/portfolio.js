@@ -10,115 +10,124 @@ import portfolio4 from '../assets/images/portfolio-04.jpg';
 const IndexPage = () => (
   <Layout activeLink="portfolio">
     <section className="page-section">
-      <div className="container">
-        <div className="product-item">
-          <div className="product-item-description d-flex mx-auto">
-            <div className="bg-faded p-5 rounded">
-              <h2 className="text-center product-item-title mb-0">
-                Applejack's Ranch
-              </h2>
-              <p className="mb-0">
-                A starter site I built for my girlfriend's parents. They're goal
-                is to open this ranch in California sometime in the future. The
-                site was built to generate excitement and inspiration in their
-                team.
-              </p>
+      <a id="applejacks">
+        <div className="container">
+          <div className="product-item">
+            <div className="product-item-description d-flex mx-auto">
+              <div className="bg-faded p-5 rounded">
+                <h2 className="text-center product-item-title mb-0">
+                  Applejack's Ranch
+                </h2>
+                <p className="mb-0">
+                  A starter site I built for my girlfriend's parents. They're
+                  goal is to open this ranch in California sometime in the
+                  future. The site was built to generate excitement and
+                  inspiration in their team.
+                </p>
+              </div>
             </div>
+            <a href="https://applejack.netlify.app/" target="_blank">
+              <img
+                className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+                src={portfolio1}
+                alt=""
+              />
+            </a>
           </div>
-          <a href="https://applejack.netlify.app/" target="_blank">
-            <img
-              className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-              src={portfolio1}
-              alt=""
-            />
-          </a>
         </div>
-      </div>
+      </a>
     </section>
 
     <section className="page-section">
-      <div className="container">
-        <div className="product-item">
-          <div className="product-item-description d-flex mx-auto">
-            <div className="bg-faded p-5 rounded">
-              <h2 className="text-center product-item-title mb-0">
-                Covenant of Grace
-              </h2>
-              <p className="mb-0">
-                My father's church's website is woefully out of date. For
-                practice, I rebuilt it entirely for them. Currently waiting to
-                see if they like my work and want to use it. In the mean time,
-                I'm still going to show it off. The original site can be found{' '}
-                <a href="https://covenantofgrace.org/" target="_blank">
-                  here.
-                </a>
-              </p>
+      <a id="covenantofgrace">
+        <div className="container">
+          <div className="product-item">
+            <div className="product-item-description d-flex mx-auto">
+              <div className="bg-faded p-5 rounded">
+                <h2 className="text-center product-item-title mb-0">
+                  Covenant of Grace
+                </h2>
+                <p className="mb-0">
+                  My father's church's website is woefully out of date. For
+                  practice, I rebuilt it entirely for them. Currently waiting to
+                  see if they like my work and want to use it. In the mean time,
+                  I'm still going to show it off. The original site can be found{' '}
+                  <a href="https://covenantofgrace.org/" target="_blank">
+                    here.
+                  </a>
+                </p>
+              </div>
             </div>
+            <a href="https://covenantofgrace.netlify.app" target="_blank">
+              <img
+                className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+                src={portfolio2}
+                alt=""
+              />
+            </a>
           </div>
-          <a href="https://covenantofgrace.netlify.app" target="_blank">
-            <img
-              className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-              src={portfolio2}
-              alt=""
-            />
-          </a>
         </div>
-      </div>
+      </a>
     </section>
 
     <section className="page-section">
-      <div className="container">
-        <div className="product-item">
-          <div className="product-item-description d-flex mx-auto">
-            <div className="bg-faded p-5 rounded">
-              <h2 className="text-center product-item-title mb-0">
-                First Moss
-              </h2>
-              <p className="mb-0">
-                My very first attempt at advertising myself online. I was told
-                it reminded of a Jolly Rancher, which is valid feedback. At the
-                very least, it shows off how my work has evolved, and it will
-                always hold a special place in my heart. ^_^
-              </p>
+      <a id="first-moss">
+        <div className="container">
+          <div className="product-item">
+            <div className="product-item-description d-flex mx-auto">
+              <div className="bg-faded p-5 rounded">
+                <h2 className="text-center product-item-title mb-0">
+                  First Moss
+                </h2>
+                <p className="mb-0">
+                  My very first attempt at advertising myself online. I was told
+                  it reminded of a Jolly Rancher, which is valid feedback. At
+                  the very least, it shows off how my work has evolved, and it
+                  will always hold a special place in my heart. ^_^
+                </p>
+              </div>
             </div>
+            <a href="https://first-moss.netlify.app/" target="_blank">
+              <img
+                className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+                src={portfolio3}
+                alt=""
+              />
+            </a>
           </div>
-          <a href="https://first-moss.netlify.app/" target="_blank">
-            <img
-              className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-              src={portfolio3}
-              alt=""
-            />
-          </a>
         </div>
-      </div>
+      </a>
     </section>
 
     <section className="page-section">
-      <div className="container">
-        <div className="product-item">
-          <div className="product-item-description d-flex mx-auto">
-            <div className="bg-faded p-5 rounded">
-              <h2 className="text-center product-item-title mb-0">
-                Simple Moss
-              </h2>
-              <p className="mb-0">
-                As part of an application to get into a particular coding boot
-                camp, I had to make a page using only HTML, CSS, and JavaScript.
-                I had high ambitions to recreate my First Moss page, but due to
-                limitations in time, I had to content myself with something much
-                simpler. My application was nevertheless accepted.
-              </p>
+      <a id="simplemoss">
+        <div className="container">
+          <div className="product-item">
+            <div className="product-item-description d-flex mx-auto">
+              <div className="bg-faded p-5 rounded">
+                <h2 className="text-center product-item-title mb-0">
+                  Simple Moss
+                </h2>
+                <p className="mb-0">
+                  As part of an application to get into a particular coding boot
+                  camp, I had to make a page using only HTML, CSS, and
+                  JavaScript. I had high ambitions to recreate my First Moss
+                  page, but due to limitations in time, I had to content myself
+                  with something much simpler. My application was nevertheless
+                  accepted.
+                </p>
+              </div>
             </div>
+            <a href="https://simplemoss.netlify.app/" target="_blank">
+              <img
+                className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
+                src={portfolio4}
+                alt=""
+              />
+            </a>
           </div>
-          <a href="https://simplemoss.netlify.app/" target="_blank">
-            <img
-              className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
-              src={portfolio4}
-              alt=""
-            />
-          </a>
         </div>
-      </div>
+      </a>
     </section>
   </Layout>
 );

@@ -8,6 +8,16 @@ export default class Header extends Component {
       openMenu: false,
     };
   }
+
+  handleMenuToggle = () => this.setState({ active: !this.state.active });
+
+  handleLinkClick = () => this.state.active && this.handleMenuToggle();
+
+  toggleSubNav = subNav =>
+    this.setState({
+      activeSubNav: this.state.activeSubNav === subNav ? false : subNav,
+    });
+
   toggleMenu = value => {
     this.setState({ openMenu: value });
   };
@@ -49,6 +59,7 @@ export default class Header extends Component {
                   Home
                 </Link>
               </li>
+
               <li
                 className={`nav-item px-lg-4 ${
                   activeLink === 'resume' ? 'active' : ''
@@ -61,18 +72,58 @@ export default class Header extends Component {
                   Resume
                 </Link>
               </li>
+
               <li
                 className={`nav-item px-lg-4 ${
                   activeLink === 'portfolio' ? 'active' : ''
                 }`}
               >
-                <Link
-                  className="nav-link text-uppercase text-expanded"
-                  to="/portfolio"
+                <div
+                  className={`group ${
+                    this.state.activeSubNav === 'portfolio' ? 'active' : ''
+                  }`}
                 >
-                  Portfolio
-                </Link>
+                  <div
+                    className="nav-link text-uppercase text-expanded"
+                    onClick={() => this.toggleSubNav('portfolio')}
+                  >
+                    Portfolio
+                    <div className="groupLinks">
+                      <Link
+                        className="nav-link text-uppercase text-expanded groupLink topLink"
+                        to="/portfolio"
+                      >
+                        Portfolio Home
+                      </Link>
+                      <Link
+                        className="nav-link text-uppercase text-expanded groupLink notTopLink"
+                        to="/portfolio#applejacks"
+                      >
+                        Applejack's *
+                      </Link>
+                      <Link
+                        className="nav-link text-uppercase text-expanded groupLink notTopLink"
+                        to="/portfolio#covenantofgrace"
+                      >
+                        Covenant *
+                      </Link>
+                      <Link
+                        className="nav-link text-uppercase text-expanded groupLink notTopLink"
+                        to="/portfolio#first-moss"
+                      >
+                        First Moss *
+                      </Link>
+                      <Link
+                        className="nav-link text-uppercase text-expanded groupLink notTopLink"
+                        to="/portfolio#simplemoss"
+                      >
+                        Simple Moss *
+                      </Link>
+                    </div>
+                  </div>
+                </div>
               </li>
+
               <li
                 className={`nav-item px-lg-4 ${
                   activeLink === 'contact' ? 'active' : ''

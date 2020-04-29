@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Jonathan Moss', // <title>
   manifestName: 'Junior Developer',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestShortName: 'A Mossy Webpage', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',

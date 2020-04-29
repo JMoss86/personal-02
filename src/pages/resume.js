@@ -71,18 +71,44 @@ const IndexPage = () => (
                   </li>
                   <ul>
                     <li>
-                      <em>Associate of Science (Computer Science)</em>
-                    </li>
-                    <li>
-                      <em>Associate of Science</em>
-                    </li>
-                    <li>
-                      <em>Associate of Arts</em>
+                      <em>
+                        <a
+                          href="https://curriculum.maricopa.edu/associate-degree-checksheets"
+                          target="_blank"
+                        >
+                          Associate of Science, Emphasis in Computer Science
+                        </a>
+                      </em>
                     </li>
                     <li>
                       <em>
-                        Academic Certificate in Communication Competence in the
-                        Workplace
+                        <a
+                          href="https://curriculum.maricopa.edu/associate-degree-checksheets"
+                          target="_blank"
+                        >
+                          Associate of Science
+                        </a>
+                      </em>
+                    </li>
+                    <li>
+                      <em>
+                        <a
+                          href="https://curriculum.maricopa.edu/associate-degree-checksheets"
+                          target="_blank"
+                        >
+                          Associate of Arts
+                        </a>
+                      </em>
+                    </li>
+                    <li>
+                      <em>
+                        <a
+                          href="https://www.gccaz.edu/academics/degrees-certificates/communication-competence-workplace-ac"
+                          target="_blank"
+                        >
+                          Academic Certificate in Communication Competence in
+                          the Workplace
+                        </a>
                       </em>
                     </li>
                     <br />
@@ -133,8 +159,15 @@ const IndexPage = () => (
                 </p>
                 <ul>
                   <li>
-                    <em>Tutor</em>, Math Solutions, Glendale Community College,
-                    Glendale, AZ &ndash; 2013 through 2015
+                    <em>Tutor</em>,{' '}
+                    <a
+                      href="https://www.gccaz.edu/academics/departments/mathematics-computer-science/tutors"
+                      target="_blank"
+                    >
+                      Math Solutions,
+                    </a>{' '}
+                    Glendale Community College, Glendale, AZ &ndash; 2013
+                    through 2015
                     <ul>
                       <li>
                         Assist students with math problems ranging from MAT082
@@ -149,8 +182,14 @@ const IndexPage = () => (
                     </ul>
                   </li>
                   <li>
-                    <em>Tutor</em>, Computer Science Solutions, Glendale
-                    Community College, AZ &ndash; 2013 through 2015
+                    <em>Tutor</em>,{' '}
+                    <a
+                      href="https://www.gccaz.edu/academics/departments/mathematics-computer-science/tutors"
+                      target="_blank"
+                    >
+                      Computer Science Solutions,
+                    </a>{' '}
+                    Glendale Community College, AZ &ndash; 2013 through 2015
                     <ul>
                       <li>
                         Assist students with general programming related issues,

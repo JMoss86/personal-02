@@ -24,10 +24,10 @@ p {
 }
 
 a {
-  color: fade-out($white, 0.5);
+  color: fade-out($primary, 0.5);
 }
 a:hover {
-  color: fade-out($primary, 0.5);
+  color: fade-out($white, 0.5);
 }
 
 .text-faded {

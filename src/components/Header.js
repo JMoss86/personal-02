@@ -136,6 +136,19 @@ export default class Header extends Component {
                   Contact
                 </Link>
               </li>
+
+              <li
+                className={`nav-item px-lg-4 ${
+                  activeLink === 'calendar' ? 'active' : ''
+                }`}
+              >
+                <Link
+                  className="nav-link text-uppercase text-expanded"
+                  to="/calendar"
+                >
+                  Calendar
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

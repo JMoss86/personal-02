@@ -3,7 +3,7 @@ import Calendar from '../components/Calendar';
 import Layout from '../components/Layout';
 
 const IndexPage = () => (
-  <Layout activeLink="contact">
+  <Layout activeLink="calendar">
     <section className="page-section cta">
       <div className="container">
         <div className="row">

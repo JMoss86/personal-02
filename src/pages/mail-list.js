@@ -11,14 +11,50 @@ const IndexPage = () => (
             <div className="cta-inner text-center rounded">
               <h2 className="section-heading mb-5">
                 <span className="section-heading-lower">
-                  Sign up for Updates From Me!
+                  Sign up for Regular Updates From Me!
                 </span>
               </h2>
-              <div className="iframe-container">
-                <span>
-                  <EmailForm />
+              <span>
+                <EmailForm />
+              </span>
+              <br />
+              <h2 className="section-heading mb-5">
+                <span className="section-heading-lower">
+                  Or, Just Shoot Me a Line!
                 </span>
-              </div>
+              </h2>
+              <form
+                action={`https://formspree.io/maydrvej`}
+                name="contact"
+                method="POST"
+                data-netlify="true"
+              >
+                <div>
+                  Name
+                  <br />
+                  <label>
+                    <input type="text" name="name" placeholder="" required />
+                  </label>
+                </div>
+                <div>
+                  E-mail
+                  <br />
+                  <label>
+                    <input type="email" name="email" placeholder="" required />
+                  </label>
+                </div>
+
+                <div>
+                  Message
+                  <br />
+                  <label>
+                    <textarea name="message" placeholder="" required></textarea>
+                  </label>
+                </div>
+                <div>
+                  <button type="submit">Send</button>
+                </div>
+              </form>
             </div>
           </div>
         </div>

@@ -11,7 +11,7 @@ const IndexPage = () => (
             <div className="cta-inner text-center rounded">
               <h2 className="section-heading mb-5">
                 <span className="section-heading-lower">
-                  When's good for you?
+                  A Schedule to Consider
                 </span>
               </h2>
               <div className="iframe-container">
@@ -24,6 +24,7 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
+    <section></section>
   </Layout>
 );
 

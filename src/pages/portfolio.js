@@ -54,8 +54,8 @@ const IndexPage = () => (
                 </h2>
                 <p className="mb-0">
                   The website of a local church I am acquainted with is woefully
-                  out of date and uresponsive. For practice, I rebuilt it
-                  entirely for them. The original site can be found{' '}
+                  out of date and not very responsive. For practice, I rebuilt
+                  it entirely for them. The original site can be found{' '}
                   <a
                     href="https://covenantofgrace.org/"
                     target="_blank"

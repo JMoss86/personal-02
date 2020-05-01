@@ -6,13 +6,19 @@ export default function Footer() {
       <div className="container">
         <p className="m-0 small">
           Copyright &copy; Jonathan Moss 2020{' '}
-          <a href="https://github.com/JMoss86" target="_blank" rel="noopener">
+          <a
+            href="https://github.com/JMoss86"
+            target="_blank"
+            rel="noopener"
+            aria-label="Github"
+          >
             <i class="fab fa-github"></i>
           </a>{' '}
           <a
             href="https://www.linkedin.com/in/jonathan-moss-20aaa1162/"
             target="_blank"
             rel="noopener"
+            aria-label="Linkedin"
           >
             <i class="fab fa-linkedin"></i>
           </a>

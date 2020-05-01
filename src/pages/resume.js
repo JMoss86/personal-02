@@ -62,6 +62,7 @@ const IndexPage = () => (
                 <p>
                   <strong>EDUCATION</strong>
                 </p>
+
                 <ul>
                   <li>
                     <a
@@ -73,89 +74,100 @@ const IndexPage = () => (
                       Glendale Community College,
                     </a>{' '}
                     Glendale, AZ &ndash; graduated December 2019
-                  </li>
-                  <ul>
-                    <li>
-                      <em>
-                        <a
-                          href="https://curriculum.maricopa.edu/associate-degree-checksheets"
-                          target="_blank"
-                          rel="noopener"
-                          aria-label="Associate Degree Checksheets"
-                        >
-                          Associate of Science, Emphasis in Computer Science
-                        </a>
-                      </em>
-                    </li>
-                    <li>
-                      <em>
-                        <a
-                          href="https://curriculum.maricopa.edu/associate-degree-checksheets"
-                          target="_blank"
-                          rel="noopener"
-                          aria-label="Associate Degree Checksheets"
-                        >
-                          Associate of Science
-                        </a>
-                      </em>
-                    </li>
-                    <li>
-                      <em>
-                        <a
-                          href="https://curriculum.maricopa.edu/associate-degree-checksheets"
-                          target="_blank"
-                          rel="noopener"
-                          aria-label="Associate Degree Checksheets"
-                        >
-                          Associate of Arts
-                        </a>
-                      </em>
-                    </li>
-                    <li>
-                      <em>
-                        <a
-                          href="https://www.gccaz.edu/academics/degrees-certificates/communication-competence-workplace-ac"
-                          target="_blank"
-                          rel="noopener"
-                          aria-label="Communication Competence in the Workplace Acedemic Certificate"
-                        >
-                          Academic Certificate in Communication Competence in
-                          the Workplace
-                        </a>
-                      </em>
-                    </li>
-                    <br />
-                    <li>Academic Achievements:</li>
                     <ul>
-                      <li>President&rsquo;s Honor List (three semesters)</li>
                       <li>
-                        Student Recognition Award for Outstanding Contribution
-                        for Sigma Chi Eta
+                        <em>
+                          <a
+                            href="https://curriculum.maricopa.edu/associate-degree-checksheets"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="Associate Degree Checksheets"
+                          >
+                            Associate of Science, Emphasis in Computer Science
+                          </a>
+                        </em>
                       </li>
+
                       <li>
-                        <a
-                          href="https://www.ptk.org"
-                          target="_blank"
-                          rel="noopener"
-                          aria-label="Phi Theta Kappa"
-                        >
-                          Phi Theta Kappa,
-                        </a>
-                        <em> President</em>
+                        <em>
+                          <a
+                            href="https://curriculum.maricopa.edu/associate-degree-checksheets"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="Associate Degree Checksheets"
+                          >
+                            Associate of Science
+                          </a>
+                        </em>
                       </li>
+
                       <li>
-                        <a
-                          href="https://www.natcom.org/student-organizations/sigma-chi-eta"
-                          target="_blank"
-                          rel="noopener"
-                          aria-label="Sigma Chi Eta"
-                        >
-                          Sigma Chi Eta,
-                        </a>
-                        <em> Secretary</em>
+                        <em>
+                          <a
+                            href="https://curriculum.maricopa.edu/associate-degree-checksheets"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="Associate Degree Checksheets"
+                          >
+                            Associate of Arts
+                          </a>
+                        </em>
+                      </li>
+
+                      <li>
+                        <em>
+                          <a
+                            href="https://www.gccaz.edu/academics/degrees-certificates/communication-competence-workplace-ac"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="Communication Competence in the Workplace Acedemic Certificate"
+                          >
+                            Academic Certificate in Communication Competence in
+                            the Workplace
+                          </a>
+                        </em>
+                      </li>
+
+                      <br />
+                      <li>
+                        Academic Achievements:
+                        <ul>
+                          <li>
+                            President&rsquo;s Honor List (three semesters)
+                          </li>
+
+                          <li>
+                            Student Recognition Award for Outstanding
+                            Contribution for Sigma Chi Eta
+                          </li>
+
+                          <li>
+                            <a
+                              href="https://www.ptk.org"
+                              target="_blank"
+                              rel="noopener"
+                              aria-label="Phi Theta Kappa"
+                            >
+                              Phi Theta Kappa,
+                            </a>
+                            <em> President</em>
+                          </li>
+                          <li>
+                            <a
+                              href="https://www.natcom.org/student-organizations/sigma-chi-eta"
+                              target="_blank"
+                              rel="noopener"
+                              aria-label="Sigma Chi Eta"
+                            >
+                              Sigma Chi Eta,
+                            </a>
+                            <em> Secretary</em>
+                          </li>
+                        </ul>
                       </li>
                     </ul>
-                  </ul>
+                  </li>
+
                   <br />
                   <li>
                     <a

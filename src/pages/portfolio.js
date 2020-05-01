@@ -19,7 +19,7 @@ const IndexPage = () => (
                   Applejack's Ranch
                 </h2>
                 <p className="mb-0">
-                  A starter site I built for my girlfriend's parents. They're
+                  A starter site I built for a non-profit organization. They're
                   goal is to open this ranch in California sometime in the
                   future. The site was built to generate excitement and
                   inspiration in their team.
@@ -30,6 +30,7 @@ const IndexPage = () => (
               href="https://applejack.netlify.app/"
               target="_blank"
               rel="noopener"
+              aria-label="Applejack's Ranch"
             >
               <img
                 className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
@@ -52,14 +53,14 @@ const IndexPage = () => (
                   Covenant of Grace
                 </h2>
                 <p className="mb-0">
-                  My father's church's website is woefully out of date. For
-                  practice, I rebuilt it entirely for them. Currently waiting to
-                  see if they like my work and want to use it. In the mean time,
-                  I'm still going to show it off. The original site can be found{' '}
+                  The website of a local church I am acquainted with is woefully
+                  out of date and uresponsive. For practice, I rebuilt it
+                  entirely for them. The original site can be found{' '}
                   <a
                     href="https://covenantofgrace.org/"
                     target="_blank"
                     rel="noopener"
+                    aria-label="Covenant of Grace dot Org"
                   >
                     here.
                   </a>
@@ -70,6 +71,7 @@ const IndexPage = () => (
               href="https://covenantofgrace.netlify.app"
               target="_blank"
               rel="noopener"
+              aria-label="Covenant of Grace Rebuilt"
             >
               <img
                 className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
@@ -103,6 +105,7 @@ const IndexPage = () => (
               href="https://first-moss.netlify.app/"
               target="_blank"
               rel="noopener"
+              aria-label="First Moss"
             >
               <img
                 className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
@@ -138,6 +141,7 @@ const IndexPage = () => (
               href="https://simplemoss.netlify.app/"
               target="_blank"
               rel="noopener"
+              aria-label="Simple Moss"
             >
               <img
                 className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"

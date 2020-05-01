@@ -64,7 +64,11 @@ const IndexPage = () => (
                 </p>
                 <ul>
                   <li>
-                    <a href="https://www.gccaz.edu/" target="_blank">
+                    <a
+                      href="https://www.gccaz.edu/"
+                      target="_blank"
+                      rel="noopener"
+                    >
                       Glendale Community College,
                     </a>{' '}
                     Glendale, AZ &ndash; graduated December 2019
@@ -75,6 +79,7 @@ const IndexPage = () => (
                         <a
                           href="https://curriculum.maricopa.edu/associate-degree-checksheets"
                           target="_blank"
+                          rel="noopener"
                         >
                           Associate of Science, Emphasis in Computer Science
                         </a>
@@ -85,6 +90,7 @@ const IndexPage = () => (
                         <a
                           href="https://curriculum.maricopa.edu/associate-degree-checksheets"
                           target="_blank"
+                          rel="noopener"
                         >
                           Associate of Science
                         </a>
@@ -95,6 +101,7 @@ const IndexPage = () => (
                         <a
                           href="https://curriculum.maricopa.edu/associate-degree-checksheets"
                           target="_blank"
+                          rel="noopener"
                         >
                           Associate of Arts
                         </a>
@@ -105,6 +112,7 @@ const IndexPage = () => (
                         <a
                           href="https://www.gccaz.edu/academics/degrees-certificates/communication-competence-workplace-ac"
                           target="_blank"
+                          rel="noopener"
                         >
                           Academic Certificate in Communication Competence in
                           the Workplace
@@ -129,6 +137,7 @@ const IndexPage = () => (
                         <a
                           href="https://www.natcom.org/student-organizations/sigma-chi-eta"
                           target="_blank"
+                          rel="noopener"
                         >
                           Sigma Chi Eta,
                         </a>
@@ -138,7 +147,7 @@ const IndexPage = () => (
                   </ul>
                   <br />
                   <li>
-                    <a href="https://woz-u.com/" target="_blank">
+                    <a href="https://woz-u.com/" target="_blank" rel="noopener">
                       Woz-U,
                     </a>{' '}
                     Scottsdale, AZ &ndash; April through June 2018
@@ -163,6 +172,7 @@ const IndexPage = () => (
                     <a
                       href="https://www.gccaz.edu/academics/departments/mathematics-computer-science/tutors"
                       target="_blank"
+                      rel="noopener"
                     >
                       Math Solutions,
                     </a>{' '}
@@ -186,6 +196,7 @@ const IndexPage = () => (
                     <a
                       href="https://www.gccaz.edu/academics/departments/mathematics-computer-science/tutors"
                       target="_blank"
+                      rel="noopener"
                     >
                       Computer Science Solutions,
                     </a>{' '}

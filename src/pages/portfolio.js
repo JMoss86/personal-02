@@ -26,7 +26,11 @@ const IndexPage = () => (
                 </p>
               </div>
             </div>
-            <a href="https://applejack.netlify.app/" target="_blank">
+            <a
+              href="https://applejack.netlify.app/"
+              target="_blank"
+              rel="noopener"
+            >
               <img
                 className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                 src={portfolio1}
@@ -52,13 +56,21 @@ const IndexPage = () => (
                   practice, I rebuilt it entirely for them. Currently waiting to
                   see if they like my work and want to use it. In the mean time,
                   I'm still going to show it off. The original site can be found{' '}
-                  <a href="https://covenantofgrace.org/" target="_blank">
+                  <a
+                    href="https://covenantofgrace.org/"
+                    target="_blank"
+                    rel="noopener"
+                  >
                     here.
                   </a>
                 </p>
               </div>
             </div>
-            <a href="https://covenantofgrace.netlify.app" target="_blank">
+            <a
+              href="https://covenantofgrace.netlify.app"
+              target="_blank"
+              rel="noopener"
+            >
               <img
                 className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                 src={portfolio2}
@@ -87,7 +99,11 @@ const IndexPage = () => (
                 </p>
               </div>
             </div>
-            <a href="https://first-moss.netlify.app/" target="_blank">
+            <a
+              href="https://first-moss.netlify.app/"
+              target="_blank"
+              rel="noopener"
+            >
               <img
                 className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                 src={portfolio3}
@@ -118,7 +134,11 @@ const IndexPage = () => (
                 </p>
               </div>
             </div>
-            <a href="https://simplemoss.netlify.app/" target="_blank">
+            <a
+              href="https://simplemoss.netlify.app/"
+              target="_blank"
+              rel="noopener"
+            >
               <img
                 className="product-item-img mx-auto d-flex rounded img-fluid mb-3 mb-lg-0"
                 src={portfolio4}

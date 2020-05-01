@@ -128,7 +128,11 @@ const IndexPage = () => (
                         for Sigma Chi Eta
                       </li>
                       <li>
-                        <a href="https://www.ptk.org" target="_blank">
+                        <a
+                          href="https://www.ptk.org"
+                          target="_blank"
+                          rel="noopener"
+                        >
                           Phi Theta Kappa,
                         </a>
                         <em> President</em>

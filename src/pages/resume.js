@@ -48,17 +48,20 @@ const IndexPage = () => (
                         MySQL
                       </li>
                     </ul>
-                    <li>
-                      Technologies: VisualStudio2015, Eclipse, Git, dependency
-                      injection, repository pattern, Node.js, MongoDB, mLab,
-                      Robo 3T, SQL Server, Oracle SQL
-                    </li>
-                    <li>
-                      Other Skills: agile and waterfall methodologies, SCRUM,
-                      unit testing, MS Office (Word, Excel, Outlook, Access)
-                    </li>
+                  </li>
+
+                  <li>
+                    Technologies: VisualStudio2015, Eclipse, Git, dependency
+                    injection, repository pattern, Node.js, MongoDB, mLab, Robo
+                    3T, SQL Server, Oracle SQL
+                  </li>
+
+                  <li>
+                    Other Skills: agile and waterfall methodologies, SCRUM, unit
+                    testing, MS Office (Word, Excel, Outlook, Access)
                   </li>
                 </ul>
+
                 <p>
                   <strong>EDUCATION</strong>
                 </p>
@@ -128,8 +131,8 @@ const IndexPage = () => (
                         </em>
                       </li>
 
-                      <br />
                       <li>
+                        <br />
                         Academic Achievements:
                         <ul>
                           <li>
@@ -168,8 +171,8 @@ const IndexPage = () => (
                     </ul>
                   </li>
 
-                  <br />
                   <li>
+                    <br />
                     <a
                       href="https://woz-u.com/"
                       target="_blank"

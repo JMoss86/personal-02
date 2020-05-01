@@ -14,7 +14,7 @@ const IndexPage = () => (
                 <span className="section-heading-lower">
                   Greetings and Salutations!
                 </span>
-                <span className="section-heading-upper text-center">~~~</span>
+                <hr />
 
                 <p className="intro-item-description">
                   Are you looking for a junior developer? What luck! <b>I</b> am

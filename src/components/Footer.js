@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="footer text-faded text-center py-5">
+    <footer className="footer text-faded text-center py-3">
       <div className="container">
         <p className="m-0 small">
           Copyright &copy; Jonathan Moss 2020{' '}

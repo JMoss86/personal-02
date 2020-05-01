@@ -12,6 +12,7 @@
     z-index: 1;
     font-size: 0.82rem;
     text-align: justify;
+    @include body-font;
   }
 
   @media (min-width: 992px) {

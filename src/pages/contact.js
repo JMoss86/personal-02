@@ -20,28 +20,27 @@ const IndexPage = () => (
                 method="POST"
                 data-netlify="true"
               >
-                <div>
-                  Name
-                  <br />
-                  <label for="name">
+                <label for="name">
+                  <div>
+                    Name
+                    <br />
                     <input type="text" name="name" placeholder="" required />
-                  </label>
-                </div>
-                <div>
-                  E-mail
-                  <br />
-                  <label for="e-mail">
+                  </div>
+                </label>
+                <label for="email">
+                  <div>
+                    E-mail
+                    <br />
                     <input type="email" name="email" placeholder="" required />
-                  </label>
-                </div>
-
-                <div>
-                  Message
-                  <br />
-                  <label for="message">
+                  </div>
+                </label>
+                <label for="message">
+                  <div>
+                    Message
+                    <br />
                     <textarea name="message" placeholder="" required></textarea>
-                  </label>
-                </div>
+                  </div>
+                </label>
                 <div>
                   <button type="submit">Send</button>
                 </div>

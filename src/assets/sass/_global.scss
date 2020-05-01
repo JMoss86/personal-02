@@ -1,6 +1,9 @@
 body {
   @include body-font;
-  background-image: linear-gradient(rgba(32, 72, 32, 0.7), rgba(72, 32, 72, 1)),
+  background-image: linear-gradient(
+      rgba(32, 80, 32, 0.6),
+      rgba(32, 80, 32, 0.8)
+    ),
     url('../images/bg-masthead.jpg');
   background-attachment: fixed;
   background-position: center;
@@ -42,15 +45,15 @@ a:hover {
     display: block;
     font-size: 2rem;
     font-weight: 800;
-    color: #af02a7 !important;
-    @include stroke(1, $black);
+    color: rgba(255, 255, 255, 0.7) !important;
+    @include stroke(1, #001a02);
   }
   .site-heading-lower {
     font-size: 5rem;
     font-weight: 100;
     line-height: 4rem;
     color: #00a50e;
-    @include stroke(1, $black);
+    @include stroke(1, #001a02);
   }
 }
 

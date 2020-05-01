@@ -23,14 +23,14 @@ const IndexPage = () => (
                 <div>
                   Name
                   <br />
-                  <label>
+                  <label for="name">
                     <input type="text" name="name" placeholder="" required />
                   </label>
                 </div>
                 <div>
                   E-mail
                   <br />
-                  <label>
+                  <label for="e-mail">
                     <input type="email" name="email" placeholder="" required />
                   </label>
                 </div>
@@ -38,7 +38,7 @@ const IndexPage = () => (
                 <div>
                   Message
                   <br />
-                  <label>
+                  <label for="message">
                     <textarea name="message" placeholder="" required></textarea>
                   </label>
                 </div>

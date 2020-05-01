@@ -130,9 +130,7 @@ const IndexPage = () => (
                           </a>
                         </em>
                       </li>
-
                       <li>
-                        <br />
                         Academic Achievements:
                         <ul>
                           <li>
@@ -172,7 +170,6 @@ const IndexPage = () => (
                   </li>
 
                   <li>
-                    <br />
                     <a
                       href="https://woz-u.com/"
                       target="_blank"

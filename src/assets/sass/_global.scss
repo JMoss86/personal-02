@@ -25,6 +25,7 @@ p {
 
 a {
   color: fade-out($primary, 0.5);
+  line-height: 2.19;
 }
 a:hover {
   color: fade-out($white, 0.5);

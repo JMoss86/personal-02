@@ -84,7 +84,7 @@ export default class Header extends Component {
                   }`}
                 >
                   <div
-                    className="nav-link text-uppercase text-expanded"
+                    className="nav-link text-uppercase text-expanded portfolio-height"
                     onClick={() => this.toggleSubNav('portfolio')}
                   >
                     Portfolio

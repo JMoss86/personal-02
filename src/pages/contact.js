@@ -27,6 +27,7 @@ const IndexPage = () => (
                     <input type="text" name="name" placeholder="" required />
                   </div>
                 </label>
+                <br />
                 <label for="email">
                   <div>
                     E-mail
@@ -34,6 +35,7 @@ const IndexPage = () => (
                     <input type="email" name="email" placeholder="" required />
                   </div>
                 </label>
+                <br />
                 <label for="message">
                   <div>
                     Message

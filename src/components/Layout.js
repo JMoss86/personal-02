@@ -7,6 +7,7 @@ import '../assets/sass/business-casual.scss';
 import Footer from './Footer';
 import SiteHeader from './SiteHeader';
 import Header from './Header';
+import Analytics from './Analytics';
 
 class Layout extends Component {
   render() {
@@ -39,6 +40,7 @@ class Layout extends Component {
             >
               <html lang="en" />
             </Helmet>
+            <Analytics />
             <div className={'page-top'}>
               {!noHeader ? <Header activeLink={activeLink} /> : null}
               {!noSiteHeader ? <SiteHeader /> : null}
